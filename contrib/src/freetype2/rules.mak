@@ -11,6 +11,18 @@ endif
 $(TARBALLS)/freetype-$(FREETYPE2_VERSION).tar.gz:
 	$(call download_pkg,$(FREETYPE2_URL),freetype2)
 
+$(TARBALLS)/freetype-$(FREETYPE2_VERSION).tar.gz:
+	$(call download_pkg,$(FREETYPE2_URL),freetype2)
+
+$(TARBALLS)/freetype-$(FREETYPE2_VERSION).tar.gz:
+	$(call download_pkg,$(FREETYPE2_URL),freetype2)
+
+$(TARBALLS)/freetype-$(FREETYPE2_VERSION).tar.gz:
+	$(call download_pkg,$(FREETYPE2_URL),freetype2)
+
+$(TARBALLS)/freetype-$(FREETYPE2_VERSION).tar.gz:
+	$(call download_pkg,$(FREETYPE2_URL),freetype2)
+
 .sum-freetype2: freetype-$(FREETYPE2_VERSION).tar.gz
 
 freetype: freetype-$(FREETYPE2_VERSION).tar.gz .sum-freetype2
